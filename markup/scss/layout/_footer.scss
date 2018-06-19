@@ -1,0 +1,66 @@
+.footer-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: left;
+	font-size: 14px;
+
+	@include media (">=desktop") {
+		padding: 45px 0 40px;
+		font-size: $font-size-base;
+	}
+
+	.col {
+		width: 100%;
+
+		@include media (">=tablet") {
+			width: 25%;
+		}
+
+		ul {
+			@extend %listreset;
+		}
+
+		li {
+			.active {
+				color: $dark-black;
+			}
+		}
+
+		a {
+			@include animate(color);
+
+			text-decoration: none;
+			line-height: 1.875;
+			
+			&:hover {
+				color: $dark-black;
+			}
+		}
+
+		h4 {
+			color: $black;
+			line-height: 1.9444;
+			font-weight: 500;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.footer-logo {
+	width: 145px;
+	
+	img {
+		margin: 10px 0 25px;
+	}
+}
+
+.contacts {
+
+	i {
+		font-size: 20px;
+		margin-right: 20px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

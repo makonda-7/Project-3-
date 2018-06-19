@@ -1,0 +1,6 @@
+1) выпадающее меню(дроп) - https://s3.amazonaws.com/scrstorage/v133k0l6t93i21f7t48.jpg, к нему подключить с джеес билдера dropdown на touch-устройствах
+2) фонты - гугл фонт
+3) табы - https://s3.amazonaws.com/scrstorage/1s3v388s551665p1.jpg
+
+
+Время на проект - https://s3.amazonaws.com/scrstorage/135m04054d3je7h20.jpg
